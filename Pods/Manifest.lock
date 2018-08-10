@@ -1,0 +1,20 @@
+PODS:
+  - pop (1.0.10)
+  - TGCameraViewController (2.2.8)
+
+DEPENDENCIES:
+  - pop
+  - TGCameraViewController
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - pop
+    - TGCameraViewController
+
+SPEC CHECKSUMS:
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  TGCameraViewController: 0768b534800e6136e70dd3cc5aafe1310b448480
+
+PODFILE CHECKSUM: bed415b94fa4758e71e8c25eb88d9a5f4dbae927
+
+COCOAPODS: 1.5.0

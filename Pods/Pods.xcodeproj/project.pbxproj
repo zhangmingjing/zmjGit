@@ -1,0 +1,1102 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0062E43AF55DA5D92501B042D7385CDD /* FloatConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = ED4B023A797E90CE0FC76873A430D0B3 /* FloatConversion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0299A3B2A3B6A4A3EF2DAEC169D7A20B /* POPPropertyAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = CCCC4EDE7890EC5163FA4B3DB903AFBF /* POPPropertyAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0481B19C7F3A108D59D3ACCE51D927F7 /* TGCameraToggle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4883471CBAF7AB5393B26BD84FDA2320 /* TGCameraToggle.m */; };
+		0AF2FE8945811974CAD3E565959512C4 /* pop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F112181721107E2E411F0EAC4E7E46DF /* pop-dummy.m */; };
+		0CFBC2B5C64AD889451A16E80CF5FD18 /* POPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 94383A5BA99648B4ABEBE93D85CBDA90 /* POPDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0D20B7DAFAE3F70252C5CA813343D85A /* TGCameraFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3D1FEB000061E5F55BD8EDC008205A /* TGCameraFocus.m */; };
+		1268EF9EEF09E41C8904FA3CA10BC6AD /* TGAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 71664745C2BA08A8FE508431C849C309 /* TGAlbum.m */; };
+		15A696758287486E1A6A81D7DFD8ED4C /* TGTintedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A6FEC735CE93A2E03E06EE9CCCA261 /* TGTintedLabel.m */; };
+		173CFD79384426465E3E56B58D1E28C2 /* POPAnimationTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = DE0FA2FF85EDFC53EE302E243AD731F4 /* POPAnimationTracer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1969D3D9F4EF9C166C842114AC3FFD32 /* TransformationMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B7EB879A160FF2E8A19086D4AC4043 /* TransformationMatrix.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1EB0F16844F3AE83D29DB5F5E15D38E4 /* UIImage+CameraFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = E37C1C0583ED27EF67889DE86DAD177D /* UIImage+CameraFilters.m */; };
+		20293B0B70D5008F9AF56A558BCD065E /* POP.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E1091FA860777E49B1B63B00DCC8B4A /* POP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		248CC5877B43F0463630176FB8B1390D /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4BD9CD3D586DEEC8EE82BF36873AF20D /* POPAnimationRuntime.mm */; };
+		2514C2EF2666A412073F669396B1189C /* TGCameraFlash.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A70A7CFEFFB87FBBCAAC2ED764EF132 /* TGCameraFlash.m */; };
+		286994E8AEE6E2E0E7EDBB67A141A45C /* TGCameraToggle.h in Headers */ = {isa = PBXBuildFile; fileRef = BA92E32D3FEB7917E857CCCEB00F3B31 /* TGCameraToggle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2992278CF8631B9B2EC149D39B8185AB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5763AC1EFA71C5159E3CA0FCCCC3683 /* AVFoundation.framework */; };
+		2C3C8313C1615F586C0CD3DBEDB0F664 /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC07705E120FE6EB09C67B6E05EE385 /* POPAnimationEventInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2F76ADD7FEB67017BD9585467E954101 /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = B91645DCC67A82486C5C0DFE9379A209 /* POPPropertyAnimation.mm */; };
+		2FA662EC8275BCBA14144880A0440616 /* TGCameraFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B6FAB4F90002252E2412A59D046F18 /* TGCameraFilterView.m */; };
+		2FB8962A2A7E65016BEAD8C0F3F0E306 /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = FEBD1A8ADF86D495EC99CCA84CC98742 /* POPCustomAnimation.mm */; };
+		30C8E6E9F649B64305F9432A2FC6F159 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541D522E713C3259B9D78290E72E7596 /* CoreImage.framework */; };
+		35FA3E44E72412C51EF084BBE91BA945 /* POPMath.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB2B58C12B927333651C07220D5768F /* POPMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3754F9872C2FDBFDB734EE0243428734 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 55FA043BCF4D8D7D332FE846F396EE87 /* POPAnimation.mm */; };
+		376109DC68C3ACD986BD89635DDA7BC6 /* TGAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = E2438B81E36D5D3F24BE4CF35746447C /* TGAlbum.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		39F11615796CCE4CA9EB0D3CC1CAC9D4 /* TGCameraGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B9F5226B4C303FC1AF0BD43A667716 /* TGCameraGridView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3E5A8D1BD3D9601F35121280004E8DAE /* POPPropertyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 450064F48B3BB6ABD986E1EAF11E909B /* POPPropertyAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3FFBFF9AA40C3492E81B7E0E05B47578 /* TGCameraSlideView.h in Headers */ = {isa = PBXBuildFile; fileRef = C7501C914A2C293F6C5F6852020844A0 /* TGCameraSlideView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		43440063EB656BE1529A6345FD01D911 /* POPDecayAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = D7F2B7C89A88CC984D241448110D1725 /* POPDecayAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		454345F3A4F39409645F9BBCFAF16F92 /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = F6D9B336D7AE28B678F9B3E55BF349EE /* POPAnimationEvent.mm */; };
+		48D4D1BD0B6F3E50257502DC7C46B0CF /* TGAssetsLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 864CFC07644405B809D345F46F886787 /* TGAssetsLibrary.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49B91FF413C511DCC210E9B228735675 /* POPDecayAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 862347ED90D935A1DE1106A63D48C521 /* POPDecayAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4AEA66849CF8CE39BA2BCDF17ABFAFB9 /* TGCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7573A237C2F1709517CFF7F4AE7B866E /* TGCameraViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4F237A2CDA5144B2EE903E353AA6ED1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF3F1F690EC4B8F38ACD2C8BEF02A24 /* UIKit.framework */; };
+		50BE40326C2AE833C670038671A5AB36 /* POPAnimationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = BBB580B0EE2CC8584180D1C052C16689 /* POPAnimationEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5130817EFC965EFD30889BE2B3D8CDC7 /* TGCameraGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = A41ADA700CC640D9278102278A2E3C27 /* TGCameraGrid.m */; };
+		51E36B94E2C540606C1B7110804E9281 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C603CD4DD8C4046AD3553C7A6021526 /* POPBasicAnimation.mm */; };
+		5366991E623179D43551E5989E3DA058 /* TGCameraSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0C64C04E45E252B4BE30C20A94A5B2 /* TGCameraSlideView.m */; };
+		56DB124830D49F1C08A1732D07973E05 /* TGTintedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = C5549BAED861524B651FA133C704B239 /* TGTintedLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		57CD618A12269CD4B58F5C841C79CDD0 /* TGCameraFilterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA269E3DC176E098D99B4E2AA86A476 /* TGCameraFilterView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		590460AA979E42A3D691822188C08EF8 /* POPSpringAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 69B7723E51585D8995A358C846F50A81 /* POPSpringAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C1D292E918ECA624CA58C1EDAD716E4 /* POPAnimatablePropertyTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 66774DB52DC805633E398B251940DD4E /* POPAnimatablePropertyTypes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5DAC01405E5595ABC8B8B4CE3572AA16 /* TGCameraViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 680BEAFA474D536ADAA77C5377234801 /* TGCameraViewController-dummy.m */; };
+		67F9E753A267CF026BC81F1BC959C8B3 /* POPVector.h in Headers */ = {isa = PBXBuildFile; fileRef = FF493690AC39034AC2DFCC5B3B8E9F3E /* POPVector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C4332837874C4AE67F83C3BEDA3E4DA /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BA92AB60FFCE74A80E8907B32FE1B43 /* POPDecayAnimation.mm */; };
+		6D6D70452AF26FD6FED10B68DAB87CDE /* TGCameraFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 305585289DA6815B2CB1DDEB60F06BA0 /* TGCameraFunctions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71E4B0AB239A3D409261431B109074D8 /* TGCameraAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2E1200EC33D8DC8FC7445640C29176 /* TGCameraAuthorizationViewController.m */; };
+		7458B6E76846F47D47474B8F65B8CA0B /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = BE7B96C2F16BA5B982AB0F390DC820D4 /* POPMath.mm */; };
+		75057B46367DA5A339EC96F58813ADA6 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9DB3B213C43525C2D8EE990A796091 /* AssetsLibrary.framework */; };
+		752A7793933AF1FD890F10F71BA93F0E /* TGCameraColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 174279774157A1711D02EB7329DFB2CE /* TGCameraColor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76F00AD8E7C707A0CEBC2C0E1C45BD10 /* POPAnimationPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = E27903B92908852947428DAFD5B9C695 /* POPAnimationPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7AF79C80B2C230729BA709895082506B /* POPCGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 729AB9C8AE937FE2E1A5D33CD8531BF5 /* POPCGUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7DA02EACE82C0D562F68BAF2F28D0035 /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBA85609C2DC1AB5750744DEEE082B43 /* POPAnimator.mm */; };
+		7DA2C68768204586C8AFBE95B51BC1EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1702A7757120C4ABB6F482B8AC6B36A4 /* Foundation.framework */; };
+		867480EBE57483C9EEBCE9D6B21C890D /* POPAnimationExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D645F408A0DFCD321F347FB846B0685 /* POPAnimationExtras.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		87D4C8EA26B36D73A386C16690C3F04D /* POPBasicAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F7C142089E7D6070A471807936216A7 /* POPBasicAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8875A294F999E7DD6B17DAE29ADDE12E /* TGCameraSlideUpView.h in Headers */ = {isa = PBXBuildFile; fileRef = 64CA28C69F9852C4ED5EE66A1115D57F /* TGCameraSlideUpView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8B791A8BB2FD423C06F265E1A7A0E4CA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1307499B8DB7AB4A610BDBFBB9151C /* MobileCoreServices.framework */; };
+		8BFFD6682B4A7230AF0C977DFDA43B50 /* POPSpringSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 7367DB03968A357DB07F2678DAE08FFB /* POPSpringSolver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		92DB8109CA76577165AF74A8A6FC2818 /* POPBasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 129BF05FD2C25AA79D72229FA03884C8 /* POPBasicAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		95204B534310B43B6CC3B5DDD6A28518 /* TGCameraFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6A7024D17EC37A097BBA655AF274F5 /* TGCameraFocusView.m */; };
+		98A8F8CB07762A36CDEA29865295C458 /* POPAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = ACA5F362EA23F24FED2D5F8D46A8C48B /* POPAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98EB153DBEF50815D05630955DBD32BA /* TGCameraSlideDownView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6E4C3CDCC5022C81CFA94B2DEEBFAE /* TGCameraSlideDownView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9FC701596562AEE766672395118CFC88 /* TGCameraGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = DB129E13760EE5969EB32A80AA0FA3F6 /* TGCameraGrid.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A1BE90D67C3A62315F25F69F50661407 /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = FA93D78CFB00878520A953E2086BD651 /* POPAnimator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A2063BA2AD8308C7FC4EA753081C7EDC /* TGPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66055B15F5D19210795308AB75B6612 /* TGPhotoViewController.m */; };
+		A26BA01B798C0D7F2527F2ACA2BF67BA /* UnitBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 63E33001F0AF7EB9F73A4C49EA08528E /* UnitBezier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A43474BAED2F16558E098E2BC9970D44 /* TGPhotoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 276BD530DB9C1BB8FF38409696F5D868 /* TGPhotoViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A54982DE789B086BAAEB4E5B1EC2FF67 /* TGCameraNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = D32E0B652B6F1CDCE3AEA3164F568E74 /* TGCameraNavigationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A61D5DEE99F8555E5BF5EE6C40BD0EE0 /* POPSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD64617DF3B7BD33004DBD964BEBC71 /* POPSpringAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A6B7F89EBD29B039769BC1C3F18F86AB /* TGCameraSlideUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FAD891F842E9C10D210719E4BB43F2 /* TGCameraSlideUpView.m */; };
+		A7F0622366712319B34EB01633A4ECE3 /* TGAssetImageFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 010EEEE1A69DA352C6142E72E8387C47 /* TGAssetImageFile.m */; };
+		A8E4EA9965538A85A64AF94C1DDB910F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1702A7757120C4ABB6F482B8AC6B36A4 /* Foundation.framework */; };
+		ADCE95FD93E14F058181C047554C813C /* TGCameraShot.h in Headers */ = {isa = PBXBuildFile; fileRef = 102E005DED073AF29DD9D1CFEEFE598B /* TGCameraShot.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE9F653E0000977CAB62DBB3384FEDFA /* POPAnimationTracerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA5BFCA4E89930AB79D71EC0EFB0973 /* POPAnimationTracerInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3268D10A15937305797AD3C868F0286 /* POPLayerExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 798A018A1F69BFB560E20D1D64F47043 /* POPLayerExtras.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B4779C3DA0D3DD5B6E17C685280E91A5 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D04D66E605DA539A8F047CCD940E2F0 /* TransformationMatrix.cpp */; };
+		B618CAB9FDC49CA21BC0667851F7FC72 /* TGCameraColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FE6282EE2D822D16A2797CB2DE94DF /* TGCameraColor.m */; };
+		B7CBEBF00B9C04C42934242904E7E30A /* POPAnimationRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 105F584045CC2222BE920DCF14CA77D5 /* POPAnimationRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BB4E9E349E0DCF8E594DBB36243DB4C9 /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = F46470A80EC6B733084EEBE5A6BA37F5 /* POPGeometry.mm */; };
+		C3FC92496C6F7240BD9F5C63D168BB5B /* TGCameraShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 062B2B6B636ED63332F66DE9910AD683 /* TGCameraShot.m */; };
+		C41563B9863ECE5AC35B021EF8FBF982 /* TGAssetsLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0720E8CE7B918A4F3F1C7F9143C623AF /* TGAssetsLibrary.m */; };
+		C4C4E2AF84E9B59A83D38C76606228BB /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = C00C0F67F1266A8DF2CF4D1D8F42899B /* POPVector.mm */; };
+		C70C81032EEF8EDAE7A6D9008F9F2443 /* POPAnimatableProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E833174A08380DB0A444ADD2FFCF5A7 /* POPAnimatableProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C935687BCD78CA8EE57B7C5278E992DE /* TGCameraFlash.h in Headers */ = {isa = PBXBuildFile; fileRef = CAFFB4401EB271C8DA54892721F9F4D1 /* TGCameraFlash.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB71E598A11E88CCA53A5C7041643EA3 /* TGCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C11B86ADBF39B53773122B1899B6A7A2 /* TGCameraViewController.m */; };
+		CB79C33376DD57470FB812768966AB0D /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A568B1213E2FCB6A0B63E0D13B23E7F /* POPAnimatableProperty.mm */; };
+		CD2737A9C55FBFB4EF26B67738682EB6 /* POPAnimatorPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1926EF48409AEDCB474219897B885570 /* POPAnimatorPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CE927A091E9442D80550653E3D5417E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1702A7757120C4ABB6F482B8AC6B36A4 /* Foundation.framework */; };
+		D08F3CDD9B36B118C8798BFE33F6DB7E /* TGTintedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = ED5D298B90CBEEFDA711AA307CAF3213 /* TGTintedButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D7D5F0AF98E243EE58333DFB82391414 /* POPAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DFD41FBF312765F4B5D9A0DC3D8AF6C /* POPAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D7EF410925468C1229D28468338B1233 /* TGCameraAuthorizationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A0563D18C5A267E74AAEF541912760C3 /* TGCameraAuthorizationViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD5AE8D01326BD4FA165DF893CDF2FD5 /* TGCameraFocusView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC792771CCBB92AA441A4E0E9BB2109 /* TGCameraFocusView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDECB85C2EAE13193C5E7D54B539177E /* TGCameraGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FA86CCC99859B3BCAB57D2EA49806E /* TGCameraGridView.m */; };
+		DE3A821F17283ADE82F430C765FF03A3 /* Pods-CustomTabBarDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1DC163DECF6B3927A274AF859728C /* Pods-CustomTabBarDemo-dummy.m */; };
+		E0D2076ABDBF2FDF213F2C6B10CB052F /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = A6073E355CE05C2963FFDAE4983E5CAF /* POPCGUtils.mm */; };
+		E2978944C4EBC80A07FAC77237AD0C70 /* TGCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 033B14A188E855621171C801F82DF5B5 /* TGCamera.m */; };
+		E420EDC9DF6B02B4A1B57ED2843ADB9C /* POPGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFFDA2FD6DD2968B592B55D2894D61C /* POPGeometry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E439A18D8E8BF1B69B05A413776F8419 /* POPCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = FF386E524555A14AF642278B72713F13 /* POPCustomAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E4C586D6BB668F496FCC08A8617812A9 /* POPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 45BC7CE6A101D876D1123A204D04ECEB /* POPAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E69864D4B846207566154636600DBD78 /* TGAssetImageFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 3451C861855ABAF75B219E2CBBFFB93E /* TGAssetImageFile.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E9E5D0DC0692FAB8F2B62DD4169017F3 /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3D8C4055A70986B998792F812AD391D6 /* POPLayerExtras.mm */; };
+		EBA99E110AA1F31C0BD79C4F16BF49CB /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC3F23165E61F07A6920C925B1FCBB /* POPAnimationTracer.mm */; };
+		EC3EBC6662B9C458B1F31ABD114DAFB3 /* TGTintedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C1764313949DC4F175974B8C13566B /* TGTintedButton.m */; };
+		EC4DF43335034ED7960909ABD4087CA9 /* TGCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = E0BBA6FD44F3BA532997DA92C0AECCE3 /* TGCamera.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ECC48E95AEA25B1FB4B3A73A50E2CAC9 /* TGCameraFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FDE7D13280C91F685D53D64AB860E4 /* TGCameraFunctions.m */; };
+		ED6255282B12C9BFB27AB9A4AA337E5F /* UIImage+CameraFilters.h in Headers */ = {isa = PBXBuildFile; fileRef = 49BD0F680C6E965A581C3F9225CE3CAF /* UIImage+CameraFilters.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4EBAECEE60F41CCFDCDEE05C84BEABD /* TGCameraSlideDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5ADC099167ACE07378DE2C04B214F1 /* TGCameraSlideDownView.m */; };
+		F59416041D773DD446221E6591AE4476 /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 567FEBC81FA4E167DE46C746EDEC65BB /* POPAnimationExtras.mm */; };
+		F677FC15DB78C49AAEA03CA9FBBDFC48 /* TGCameraNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C51027F01C1BAB4BC6080432DE1AD7F /* TGCameraNavigationController.m */; };
+		FCB1BE49F9624CDD0B05D2C81C50A734 /* TGCameraFocus.h in Headers */ = {isa = PBXBuildFile; fileRef = 23905D519910C9B5D4C17C84F40EB614 /* TGCameraFocus.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FDD91B879E36AA3C4B775FD41EBEF781 /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 466823CE1F5075F08A7D8D33C07EA3F1 /* POPSpringAnimation.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B3AD51A82DBA78803DFCDE559C6742A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6601F5986EF19698F65FBFFD85E4933;
+			remoteInfo = pop;
+		};
+		62CAC0AD0602332035A96575A94EA128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6403EB1EE025A5B6DEF3432881B19AD4;
+			remoteInfo = TGCameraViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010EEEE1A69DA352C6142E72E8387C47 /* TGAssetImageFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGAssetImageFile.m; path = TGCameraViewController/Classes/Model/TGAssetImageFile.m; sourceTree = "<group>"; };
+		033B14A188E855621171C801F82DF5B5 /* TGCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCamera.m; path = TGCameraViewController/Classes/Helper/TGCamera.m; sourceTree = "<group>"; };
+		05A60E203745AA023B74F74249F71C5C /* libTGCameraViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTGCameraViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		062B2B6B636ED63332F66DE9910AD683 /* TGCameraShot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraShot.m; path = TGCameraViewController/Classes/Helper/TGCameraShot.m; sourceTree = "<group>"; };
+		0720E8CE7B918A4F3F1C7F9143C623AF /* TGAssetsLibrary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGAssetsLibrary.m; path = TGCameraViewController/Classes/Helper/TGAssetsLibrary.m; sourceTree = "<group>"; };
+		0B6E4C3CDCC5022C81CFA94B2DEEBFAE /* TGCameraSlideDownView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraSlideDownView.h; path = TGCameraViewController/Classes/UI/TGCameraSlideDownView.h; sourceTree = "<group>"; };
+		0D0C64C04E45E252B4BE30C20A94A5B2 /* TGCameraSlideView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraSlideView.m; path = TGCameraViewController/Classes/UI/TGCameraSlideView.m; sourceTree = "<group>"; };
+		0DD64617DF3B7BD33004DBD964BEBC71 /* POPSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimation.h; path = pop/POPSpringAnimation.h; sourceTree = "<group>"; };
+		102E005DED073AF29DD9D1CFEEFE598B /* TGCameraShot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraShot.h; path = TGCameraViewController/Classes/Helper/TGCameraShot.h; sourceTree = "<group>"; };
+		105F584045CC2222BE920DCF14CA77D5 /* POPAnimationRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationRuntime.h; path = pop/POPAnimationRuntime.h; sourceTree = "<group>"; };
+		129BF05FD2C25AA79D72229FA03884C8 /* POPBasicAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimation.h; path = pop/POPBasicAnimation.h; sourceTree = "<group>"; };
+		1702A7757120C4ABB6F482B8AC6B36A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		174279774157A1711D02EB7329DFB2CE /* TGCameraColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraColor.h; path = TGCameraViewController/Classes/Helper/TGCameraColor.h; sourceTree = "<group>"; };
+		1926EF48409AEDCB474219897B885570 /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatorPrivate.h; path = pop/POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		1A568B1213E2FCB6A0B63E0D13B23E7F /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimatableProperty.mm; path = pop/POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		1BA269E3DC176E098D99B4E2AA86A476 /* TGCameraFilterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraFilterView.h; path = TGCameraViewController/Classes/UI/TGCameraFilterView.h; sourceTree = "<group>"; };
+		1E1091FA860777E49B1B63B00DCC8B4A /* POP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POP.h; path = pop/POP.h; sourceTree = "<group>"; };
+		1F2E1200EC33D8DC8FC7445640C29176 /* TGCameraAuthorizationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraAuthorizationViewController.m; path = TGCameraViewController/Classes/Control/TGCameraAuthorizationViewController.m; sourceTree = "<group>"; };
+		213E197C8FA6E6AB2A14FC6EA011A724 /* pop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pop.xcconfig; sourceTree = "<group>"; };
+		23905D519910C9B5D4C17C84F40EB614 /* TGCameraFocus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraFocus.h; path = TGCameraViewController/Classes/Helper/TGCameraFocus.h; sourceTree = "<group>"; };
+		26FA86CCC99859B3BCAB57D2EA49806E /* TGCameraGridView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraGridView.m; path = TGCameraViewController/Classes/UI/TGCameraGridView.m; sourceTree = "<group>"; };
+		276BD530DB9C1BB8FF38409696F5D868 /* TGPhotoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGPhotoViewController.h; path = TGCameraViewController/Classes/Control/TGPhotoViewController.h; sourceTree = "<group>"; };
+		2B248C678264649214057D02E307154B /* pop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-prefix.pch"; sourceTree = "<group>"; };
+		2BA92AB60FFCE74A80E8907B32FE1B43 /* POPDecayAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPDecayAnimation.mm; path = pop/POPDecayAnimation.mm; sourceTree = "<group>"; };
+		2DFD41FBF312765F4B5D9A0DC3D8AF6C /* POPAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationInternal.h; path = pop/POPAnimationInternal.h; sourceTree = "<group>"; };
+		2E73DF2890B7E00201074B0D8670F560 /* Pods-CustomTabBarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomTabBarDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		305585289DA6815B2CB1DDEB60F06BA0 /* TGCameraFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraFunctions.h; path = TGCameraViewController/Classes/Helper/TGCameraFunctions.h; sourceTree = "<group>"; };
+		3451C861855ABAF75B219E2CBBFFB93E /* TGAssetImageFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGAssetImageFile.h; path = TGCameraViewController/Classes/Model/TGAssetImageFile.h; sourceTree = "<group>"; };
+		3D04D66E605DA539A8F047CCD940E2F0 /* TransformationMatrix.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = TransformationMatrix.cpp; path = pop/WebCore/TransformationMatrix.cpp; sourceTree = "<group>"; };
+		3D8C4055A70986B998792F812AD391D6 /* POPLayerExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPLayerExtras.mm; path = pop/POPLayerExtras.mm; sourceTree = "<group>"; };
+		450064F48B3BB6ABD986E1EAF11E909B /* POPPropertyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimation.h; path = pop/POPPropertyAnimation.h; sourceTree = "<group>"; };
+		45BC7CE6A101D876D1123A204D04ECEB /* POPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAction.h; path = pop/POPAction.h; sourceTree = "<group>"; };
+		45C1764313949DC4F175974B8C13566B /* TGTintedButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGTintedButton.m; path = TGCameraViewController/Classes/UI/TGTintedButton.m; sourceTree = "<group>"; };
+		466823CE1F5075F08A7D8D33C07EA3F1 /* POPSpringAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPSpringAnimation.mm; path = pop/POPSpringAnimation.mm; sourceTree = "<group>"; };
+		4883471CBAF7AB5393B26BD84FDA2320 /* TGCameraToggle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraToggle.m; path = TGCameraViewController/Classes/Helper/TGCameraToggle.m; sourceTree = "<group>"; };
+		49BD0F680C6E965A581C3F9225CE3CAF /* UIImage+CameraFilters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CameraFilters.h"; path = "TGCameraViewController/Classes/Category/UIImage+CameraFilters.h"; sourceTree = "<group>"; };
+		4BD9CD3D586DEEC8EE82BF36873AF20D /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		4C51027F01C1BAB4BC6080432DE1AD7F /* TGCameraNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraNavigationController.m; path = TGCameraViewController/Classes/Control/TGCameraNavigationController.m; sourceTree = "<group>"; };
+		4C603CD4DD8C4046AD3553C7A6021526 /* POPBasicAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPBasicAnimation.mm; path = pop/POPBasicAnimation.mm; sourceTree = "<group>"; };
+		4DAC3F23165E61F07A6920C925B1FCBB /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
+		541D522E713C3259B9D78290E72E7596 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		55B7EB879A160FF2E8A19086D4AC4043 /* TransformationMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransformationMatrix.h; path = pop/WebCore/TransformationMatrix.h; sourceTree = "<group>"; };
+		55FA043BCF4D8D7D332FE846F396EE87 /* POPAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimation.mm; path = pop/POPAnimation.mm; sourceTree = "<group>"; };
+		567FEBC81FA4E167DE46C746EDEC65BB /* POPAnimationExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationExtras.mm; path = pop/POPAnimationExtras.mm; sourceTree = "<group>"; };
+		56AB49B3C86FD73850E6D4E82E6B769B /* TGCameraAuthorizationViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TGCameraAuthorizationViewController.xib; path = Base.lproj/TGCameraAuthorizationViewController.xib; sourceTree = "<group>"; };
+		57FE6282EE2D822D16A2797CB2DE94DF /* TGCameraColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraColor.m; path = TGCameraViewController/Classes/Helper/TGCameraColor.m; sourceTree = "<group>"; };
+		63E33001F0AF7EB9F73A4C49EA08528E /* UnitBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnitBezier.h; path = pop/WebCore/UnitBezier.h; sourceTree = "<group>"; };
+		64CA28C69F9852C4ED5EE66A1115D57F /* TGCameraSlideUpView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraSlideUpView.h; path = TGCameraViewController/Classes/UI/TGCameraSlideUpView.h; sourceTree = "<group>"; };
+		66774DB52DC805633E398B251940DD4E /* POPAnimatablePropertyTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatablePropertyTypes.h; path = pop/POPAnimatablePropertyTypes.h; sourceTree = "<group>"; };
+		680BEAFA474D536ADAA77C5377234801 /* TGCameraViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TGCameraViewController-dummy.m"; sourceTree = "<group>"; };
+		68F8915445F6EC271ECC742740075AB7 /* Pods-CustomTabBarDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomTabBarDemo-frameworks.sh"; sourceTree = "<group>"; };
+		69B7723E51585D8995A358C846F50A81 /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimationInternal.h; path = pop/POPSpringAnimationInternal.h; sourceTree = "<group>"; };
+		6BA67C14F2458EC5E29A924E9AB867AB /* TGCameraViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TGCameraViewController.xcconfig; sourceTree = "<group>"; };
+		6EF3F1F690EC4B8F38ACD2C8BEF02A24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6F7C142089E7D6070A471807936216A7 /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimationInternal.h; path = pop/POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		71664745C2BA08A8FE508431C849C309 /* TGAlbum.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGAlbum.m; path = TGCameraViewController/Classes/Helper/TGAlbum.m; sourceTree = "<group>"; };
+		729AB9C8AE937FE2E1A5D33CD8531BF5 /* POPCGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCGUtils.h; path = pop/POPCGUtils.h; sourceTree = "<group>"; };
+		7367DB03968A357DB07F2678DAE08FFB /* POPSpringSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringSolver.h; path = pop/POPSpringSolver.h; sourceTree = "<group>"; };
+		7573A237C2F1709517CFF7F4AE7B866E /* TGCameraViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraViewController.h; path = TGCameraViewController/Classes/Control/TGCameraViewController.h; sourceTree = "<group>"; };
+		76B71169A0D6DC2E295DF3E2E71FACEC /* libPods-CustomTabBarDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomTabBarDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D749F968F37A87BEA1293119816644 /* Pods-CustomTabBarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomTabBarDemo.release.xcconfig"; sourceTree = "<group>"; };
+		798A018A1F69BFB560E20D1D64F47043 /* POPLayerExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPLayerExtras.h; path = pop/POPLayerExtras.h; sourceTree = "<group>"; };
+		7A3D1FEB000061E5F55BD8EDC008205A /* TGCameraFocus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraFocus.m; path = TGCameraViewController/Classes/Helper/TGCameraFocus.m; sourceTree = "<group>"; };
+		7A70A7CFEFFB87FBBCAAC2ED764EF132 /* TGCameraFlash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraFlash.m; path = TGCameraViewController/Classes/Helper/TGCameraFlash.m; sourceTree = "<group>"; };
+		7E1FD4F7010657D383A3017AD72B2ED4 /* TGCameraViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TGCameraViewController-prefix.pch"; sourceTree = "<group>"; };
+		7EFFDA2FD6DD2968B592B55D2894D61C /* POPGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPGeometry.h; path = pop/POPGeometry.h; sourceTree = "<group>"; };
+		8429E5C73BF09D1E4527096E826941B7 /* TGCameraViewController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TGCameraViewController.bundle; path = TGCameraViewController/Resources/TGCameraViewController.bundle; sourceTree = "<group>"; };
+		862347ED90D935A1DE1106A63D48C521 /* POPDecayAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimation.h; path = pop/POPDecayAnimation.h; sourceTree = "<group>"; };
+		864CFC07644405B809D345F46F886787 /* TGAssetsLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGAssetsLibrary.h; path = TGCameraViewController/Classes/Helper/TGAssetsLibrary.h; sourceTree = "<group>"; };
+		8C5ADC099167ACE07378DE2C04B214F1 /* TGCameraSlideDownView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraSlideDownView.m; path = TGCameraViewController/Classes/UI/TGCameraSlideDownView.m; sourceTree = "<group>"; };
+		8D645F408A0DFCD321F347FB846B0685 /* POPAnimationExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationExtras.h; path = pop/POPAnimationExtras.h; sourceTree = "<group>"; };
+		91A6FEC735CE93A2E03E06EE9CCCA261 /* TGTintedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGTintedLabel.m; path = TGCameraViewController/Classes/UI/TGTintedLabel.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94383A5BA99648B4ABEBE93D85CBDA90 /* POPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDefines.h; path = pop/POPDefines.h; sourceTree = "<group>"; };
+		94E642A102F8460699E343B94FE4FADC /* TGCameraViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TGCameraViewController.xib; path = Base.lproj/TGCameraViewController.xib; sourceTree = "<group>"; };
+		9AC1DC163DECF6B3927A274AF859728C /* Pods-CustomTabBarDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomTabBarDemo-dummy.m"; sourceTree = "<group>"; };
+		9E833174A08380DB0A444ADD2FFCF5A7 /* POPAnimatableProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatableProperty.h; path = pop/POPAnimatableProperty.h; sourceTree = "<group>"; };
+		9F6A7024D17EC37A097BBA655AF274F5 /* TGCameraFocusView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraFocusView.m; path = TGCameraViewController/Classes/UI/TGCameraFocusView.m; sourceTree = "<group>"; };
+		A0563D18C5A267E74AAEF541912760C3 /* TGCameraAuthorizationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraAuthorizationViewController.h; path = TGCameraViewController/Classes/Control/TGCameraAuthorizationViewController.h; sourceTree = "<group>"; };
+		A41ADA700CC640D9278102278A2E3C27 /* TGCameraGrid.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraGrid.m; path = TGCameraViewController/Classes/Helper/TGCameraGrid.m; sourceTree = "<group>"; };
+		A6073E355CE05C2963FFDAE4983E5CAF /* POPCGUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPCGUtils.mm; path = pop/POPCGUtils.mm; sourceTree = "<group>"; };
+		ACA5F362EA23F24FED2D5F8D46A8C48B /* POPAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimation.h; path = pop/POPAnimation.h; sourceTree = "<group>"; };
+		AEA5BFCA4E89930AB79D71EC0EFB0973 /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracerInternal.h; path = pop/POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		AF07985DF21B4B9CD4400DDA8F43349B /* Pods-CustomTabBarDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomTabBarDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		B66055B15F5D19210795308AB75B6612 /* TGPhotoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGPhotoViewController.m; path = TGCameraViewController/Classes/Control/TGPhotoViewController.m; sourceTree = "<group>"; };
+		B6AE8EFDA4CFD78427539C5364CFCA61 /* TGCameraViewController.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = TGCameraViewController.xcassets; path = TGCameraViewController/TGCameraViewController.xcassets; sourceTree = "<group>"; };
+		B8FAD891F842E9C10D210719E4BB43F2 /* TGCameraSlideUpView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraSlideUpView.m; path = TGCameraViewController/Classes/UI/TGCameraSlideUpView.m; sourceTree = "<group>"; };
+		B91645DCC67A82486C5C0DFE9379A209 /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPPropertyAnimation.mm; path = pop/POPPropertyAnimation.mm; sourceTree = "<group>"; };
+		BA92E32D3FEB7917E857CCCEB00F3B31 /* TGCameraToggle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraToggle.h; path = TGCameraViewController/Classes/Helper/TGCameraToggle.h; sourceTree = "<group>"; };
+		BBA85609C2DC1AB5750744DEEE082B43 /* POPAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimator.mm; path = pop/POPAnimator.mm; sourceTree = "<group>"; };
+		BBB580B0EE2CC8584180D1C052C16689 /* POPAnimationEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEvent.h; path = pop/POPAnimationEvent.h; sourceTree = "<group>"; };
+		BE7B96C2F16BA5B982AB0F390DC820D4 /* POPMath.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPMath.mm; path = pop/POPMath.mm; sourceTree = "<group>"; };
+		C00C0F67F1266A8DF2CF4D1D8F42899B /* POPVector.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPVector.mm; path = pop/POPVector.mm; sourceTree = "<group>"; };
+		C11B86ADBF39B53773122B1899B6A7A2 /* TGCameraViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraViewController.m; path = TGCameraViewController/Classes/Control/TGCameraViewController.m; sourceTree = "<group>"; };
+		C13044AA4BD61B64955BB8CB2D6DE236 /* Pods-CustomTabBarDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomTabBarDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1B6FAB4F90002252E2412A59D046F18 /* TGCameraFilterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraFilterView.m; path = TGCameraViewController/Classes/UI/TGCameraFilterView.m; sourceTree = "<group>"; };
+		C5549BAED861524B651FA133C704B239 /* TGTintedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGTintedLabel.h; path = TGCameraViewController/Classes/UI/TGTintedLabel.h; sourceTree = "<group>"; };
+		C7501C914A2C293F6C5F6852020844A0 /* TGCameraSlideView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraSlideView.h; path = TGCameraViewController/Classes/UI/TGCameraSlideView.h; sourceTree = "<group>"; };
+		C9FDE7D13280C91F685D53D64AB860E4 /* TGCameraFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraFunctions.m; path = TGCameraViewController/Classes/Helper/TGCameraFunctions.m; sourceTree = "<group>"; };
+		CAFFB4401EB271C8DA54892721F9F4D1 /* TGCameraFlash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraFlash.h; path = TGCameraViewController/Classes/Helper/TGCameraFlash.h; sourceTree = "<group>"; };
+		CCCC4EDE7890EC5163FA4B3DB903AFBF /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimationInternal.h; path = pop/POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		CD9DB3B213C43525C2D8EE990A796091 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		CDC792771CCBB92AA441A4E0E9BB2109 /* TGCameraFocusView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraFocusView.h; path = TGCameraViewController/Classes/UI/TGCameraFocusView.h; sourceTree = "<group>"; };
+		D32E0B652B6F1CDCE3AEA3164F568E74 /* TGCameraNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraNavigationController.h; path = TGCameraViewController/Classes/Control/TGCameraNavigationController.h; sourceTree = "<group>"; };
+		D7F2B7C89A88CC984D241448110D1725 /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimationInternal.h; path = pop/POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		D9B9F5226B4C303FC1AF0BD43A667716 /* TGCameraGridView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraGridView.h; path = TGCameraViewController/Classes/UI/TGCameraGridView.h; sourceTree = "<group>"; };
+		DAC07705E120FE6EB09C67B6E05EE385 /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEventInternal.h; path = pop/POPAnimationEventInternal.h; sourceTree = "<group>"; };
+		DB129E13760EE5969EB32A80AA0FA3F6 /* TGCameraGrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraGrid.h; path = TGCameraViewController/Classes/Helper/TGCameraGrid.h; sourceTree = "<group>"; };
+		DE0FA2FF85EDFC53EE302E243AD731F4 /* POPAnimationTracer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracer.h; path = pop/POPAnimationTracer.h; sourceTree = "<group>"; };
+		DE1307499B8DB7AB4A610BDBFBB9151C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		E0BBA6FD44F3BA532997DA92C0AECCE3 /* TGCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCamera.h; path = TGCameraViewController/Classes/Helper/TGCamera.h; sourceTree = "<group>"; };
+		E2438B81E36D5D3F24BE4CF35746447C /* TGAlbum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGAlbum.h; path = TGCameraViewController/Classes/Helper/TGAlbum.h; sourceTree = "<group>"; };
+		E27903B92908852947428DAFD5B9C695 /* POPAnimationPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationPrivate.h; path = pop/POPAnimationPrivate.h; sourceTree = "<group>"; };
+		E37C1C0583ED27EF67889DE86DAD177D /* UIImage+CameraFilters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CameraFilters.m"; path = "TGCameraViewController/Classes/Category/UIImage+CameraFilters.m"; sourceTree = "<group>"; };
+		E4E3E90217D3EC7CD5730B30C7084542 /* Pods-CustomTabBarDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomTabBarDemo-resources.sh"; sourceTree = "<group>"; };
+		E5763AC1EFA71C5159E3CA0FCCCC3683 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		ED4B023A797E90CE0FC76873A430D0B3 /* FloatConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatConversion.h; path = pop/WebCore/FloatConversion.h; sourceTree = "<group>"; };
+		ED5D298B90CBEEFDA711AA307CAF3213 /* TGTintedButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGTintedButton.h; path = TGCameraViewController/Classes/UI/TGTintedButton.h; sourceTree = "<group>"; };
+		F112181721107E2E411F0EAC4E7E46DF /* pop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "pop-dummy.m"; sourceTree = "<group>"; };
+		F13E1C117D1B1BE61979449471694079 /* libpop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libpop.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46470A80EC6B733084EEBE5A6BA37F5 /* POPGeometry.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPGeometry.mm; path = pop/POPGeometry.mm; sourceTree = "<group>"; };
+		F6D9B336D7AE28B678F9B3E55BF349EE /* POPAnimationEvent.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationEvent.mm; path = pop/POPAnimationEvent.mm; sourceTree = "<group>"; };
+		FA93D78CFB00878520A953E2086BD651 /* POPAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimator.h; path = pop/POPAnimator.h; sourceTree = "<group>"; };
+		FBB2B58C12B927333651C07220D5768F /* POPMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPMath.h; path = pop/POPMath.h; sourceTree = "<group>"; };
+		FDDDD939536F1CC1601A558E47296953 /* TGPhotoViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TGPhotoViewController.xib; path = Base.lproj/TGPhotoViewController.xib; sourceTree = "<group>"; };
+		FEBD1A8ADF86D495EC99CCA84CC98742 /* POPCustomAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPCustomAnimation.mm; path = pop/POPCustomAnimation.mm; sourceTree = "<group>"; };
+		FF386E524555A14AF642278B72713F13 /* POPCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCustomAnimation.h; path = pop/POPCustomAnimation.h; sourceTree = "<group>"; };
+		FF493690AC39034AC2DFCC5B3B8E9F3E /* POPVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPVector.h; path = pop/POPVector.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1469082EEDFBDBE9767D589DA1C2E8AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75057B46367DA5A339EC96F58813ADA6 /* AssetsLibrary.framework in Frameworks */,
+				2992278CF8631B9B2EC149D39B8185AB /* AVFoundation.framework in Frameworks */,
+				30C8E6E9F649B64305F9432A2FC6F159 /* CoreImage.framework in Frameworks */,
+				7DA2C68768204586C8AFBE95B51BC1EC /* Foundation.framework in Frameworks */,
+				8B791A8BB2FD423C06F265E1A7A0E4CA /* MobileCoreServices.framework in Frameworks */,
+				4F237A2CDA5144B2EE903E353AA6ED1B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AB008CE33F1AA8BC54F968142008A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8E4EA9965538A85A64AF94C1DDB910F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF0B5CF7CCFA9500370A133406E60D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE927A091E9442D80550653E3D5417E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE6D19366A97DAC8E6781241D363F0EB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EE944448A13D2350AFEC95B36275E53 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BA67C14F2458EC5E29A924E9AB867AB /* TGCameraViewController.xcconfig */,
+				680BEAFA474D536ADAA77C5377234801 /* TGCameraViewController-dummy.m */,
+				7E1FD4F7010657D383A3017AD72B2ED4 /* TGCameraViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TGCameraViewController";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
+				DC4DAE670D574EC76DB042885F7FEF38 /* Pods */,
+				C7B61A8DCD8A2BDDD452CF4CFBF48034 /* Products */,
+				EF87FAB3AE9203E7A874AC0D4B5B9CFD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CB33AED1C336EF80739BAA3AB6597DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				213E197C8FA6E6AB2A14FC6EA011A724 /* pop.xcconfig */,
+				F112181721107E2E411F0EAC4E7E46DF /* pop-dummy.m */,
+				2B248C678264649214057D02E307154B /* pop-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/pop";
+			sourceTree = "<group>";
+		};
+		A9C6B80B02A048AE6856F6565B43B1B7 /* Pods-CustomTabBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C13044AA4BD61B64955BB8CB2D6DE236 /* Pods-CustomTabBarDemo-acknowledgements.markdown */,
+				AF07985DF21B4B9CD4400DDA8F43349B /* Pods-CustomTabBarDemo-acknowledgements.plist */,
+				9AC1DC163DECF6B3927A274AF859728C /* Pods-CustomTabBarDemo-dummy.m */,
+				68F8915445F6EC271ECC742740075AB7 /* Pods-CustomTabBarDemo-frameworks.sh */,
+				E4E3E90217D3EC7CD5730B30C7084542 /* Pods-CustomTabBarDemo-resources.sh */,
+				2E73DF2890B7E00201074B0D8670F560 /* Pods-CustomTabBarDemo.debug.xcconfig */,
+				77D749F968F37A87BEA1293119816644 /* Pods-CustomTabBarDemo.release.xcconfig */,
+			);
+			name = "Pods-CustomTabBarDemo";
+			path = "Target Support Files/Pods-CustomTabBarDemo";
+			sourceTree = "<group>";
+		};
+		B471DA4610FEA377DCC27A616518B0B1 /* TGCameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E2438B81E36D5D3F24BE4CF35746447C /* TGAlbum.h */,
+				71664745C2BA08A8FE508431C849C309 /* TGAlbum.m */,
+				3451C861855ABAF75B219E2CBBFFB93E /* TGAssetImageFile.h */,
+				010EEEE1A69DA352C6142E72E8387C47 /* TGAssetImageFile.m */,
+				864CFC07644405B809D345F46F886787 /* TGAssetsLibrary.h */,
+				0720E8CE7B918A4F3F1C7F9143C623AF /* TGAssetsLibrary.m */,
+				E0BBA6FD44F3BA532997DA92C0AECCE3 /* TGCamera.h */,
+				033B14A188E855621171C801F82DF5B5 /* TGCamera.m */,
+				A0563D18C5A267E74AAEF541912760C3 /* TGCameraAuthorizationViewController.h */,
+				1F2E1200EC33D8DC8FC7445640C29176 /* TGCameraAuthorizationViewController.m */,
+				174279774157A1711D02EB7329DFB2CE /* TGCameraColor.h */,
+				57FE6282EE2D822D16A2797CB2DE94DF /* TGCameraColor.m */,
+				1BA269E3DC176E098D99B4E2AA86A476 /* TGCameraFilterView.h */,
+				C1B6FAB4F90002252E2412A59D046F18 /* TGCameraFilterView.m */,
+				CAFFB4401EB271C8DA54892721F9F4D1 /* TGCameraFlash.h */,
+				7A70A7CFEFFB87FBBCAAC2ED764EF132 /* TGCameraFlash.m */,
+				23905D519910C9B5D4C17C84F40EB614 /* TGCameraFocus.h */,
+				7A3D1FEB000061E5F55BD8EDC008205A /* TGCameraFocus.m */,
+				CDC792771CCBB92AA441A4E0E9BB2109 /* TGCameraFocusView.h */,
+				9F6A7024D17EC37A097BBA655AF274F5 /* TGCameraFocusView.m */,
+				305585289DA6815B2CB1DDEB60F06BA0 /* TGCameraFunctions.h */,
+				C9FDE7D13280C91F685D53D64AB860E4 /* TGCameraFunctions.m */,
+				DB129E13760EE5969EB32A80AA0FA3F6 /* TGCameraGrid.h */,
+				A41ADA700CC640D9278102278A2E3C27 /* TGCameraGrid.m */,
+				D9B9F5226B4C303FC1AF0BD43A667716 /* TGCameraGridView.h */,
+				26FA86CCC99859B3BCAB57D2EA49806E /* TGCameraGridView.m */,
+				D32E0B652B6F1CDCE3AEA3164F568E74 /* TGCameraNavigationController.h */,
+				4C51027F01C1BAB4BC6080432DE1AD7F /* TGCameraNavigationController.m */,
+				102E005DED073AF29DD9D1CFEEFE598B /* TGCameraShot.h */,
+				062B2B6B636ED63332F66DE9910AD683 /* TGCameraShot.m */,
+				0B6E4C3CDCC5022C81CFA94B2DEEBFAE /* TGCameraSlideDownView.h */,
+				8C5ADC099167ACE07378DE2C04B214F1 /* TGCameraSlideDownView.m */,
+				64CA28C69F9852C4ED5EE66A1115D57F /* TGCameraSlideUpView.h */,
+				B8FAD891F842E9C10D210719E4BB43F2 /* TGCameraSlideUpView.m */,
+				C7501C914A2C293F6C5F6852020844A0 /* TGCameraSlideView.h */,
+				0D0C64C04E45E252B4BE30C20A94A5B2 /* TGCameraSlideView.m */,
+				BA92E32D3FEB7917E857CCCEB00F3B31 /* TGCameraToggle.h */,
+				4883471CBAF7AB5393B26BD84FDA2320 /* TGCameraToggle.m */,
+				7573A237C2F1709517CFF7F4AE7B866E /* TGCameraViewController.h */,
+				C11B86ADBF39B53773122B1899B6A7A2 /* TGCameraViewController.m */,
+				276BD530DB9C1BB8FF38409696F5D868 /* TGPhotoViewController.h */,
+				B66055B15F5D19210795308AB75B6612 /* TGPhotoViewController.m */,
+				ED5D298B90CBEEFDA711AA307CAF3213 /* TGTintedButton.h */,
+				45C1764313949DC4F175974B8C13566B /* TGTintedButton.m */,
+				C5549BAED861524B651FA133C704B239 /* TGTintedLabel.h */,
+				91A6FEC735CE93A2E03E06EE9CCCA261 /* TGTintedLabel.m */,
+				49BD0F680C6E965A581C3F9225CE3CAF /* UIImage+CameraFilters.h */,
+				E37C1C0583ED27EF67889DE86DAD177D /* UIImage+CameraFilters.m */,
+				C77E79A7A534B7657FFB18A18868E92B /* Resources */,
+				1EE944448A13D2350AFEC95B36275E53 /* Support Files */,
+			);
+			path = TGCameraViewController;
+			sourceTree = "<group>";
+		};
+		C2A054796312257CE115B07F0D2CA692 /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				ED4B023A797E90CE0FC76873A430D0B3 /* FloatConversion.h */,
+				1E1091FA860777E49B1B63B00DCC8B4A /* POP.h */,
+				45BC7CE6A101D876D1123A204D04ECEB /* POPAction.h */,
+				9E833174A08380DB0A444ADD2FFCF5A7 /* POPAnimatableProperty.h */,
+				1A568B1213E2FCB6A0B63E0D13B23E7F /* POPAnimatableProperty.mm */,
+				66774DB52DC805633E398B251940DD4E /* POPAnimatablePropertyTypes.h */,
+				ACA5F362EA23F24FED2D5F8D46A8C48B /* POPAnimation.h */,
+				55FA043BCF4D8D7D332FE846F396EE87 /* POPAnimation.mm */,
+				BBB580B0EE2CC8584180D1C052C16689 /* POPAnimationEvent.h */,
+				F6D9B336D7AE28B678F9B3E55BF349EE /* POPAnimationEvent.mm */,
+				DAC07705E120FE6EB09C67B6E05EE385 /* POPAnimationEventInternal.h */,
+				8D645F408A0DFCD321F347FB846B0685 /* POPAnimationExtras.h */,
+				567FEBC81FA4E167DE46C746EDEC65BB /* POPAnimationExtras.mm */,
+				2DFD41FBF312765F4B5D9A0DC3D8AF6C /* POPAnimationInternal.h */,
+				E27903B92908852947428DAFD5B9C695 /* POPAnimationPrivate.h */,
+				105F584045CC2222BE920DCF14CA77D5 /* POPAnimationRuntime.h */,
+				4BD9CD3D586DEEC8EE82BF36873AF20D /* POPAnimationRuntime.mm */,
+				DE0FA2FF85EDFC53EE302E243AD731F4 /* POPAnimationTracer.h */,
+				4DAC3F23165E61F07A6920C925B1FCBB /* POPAnimationTracer.mm */,
+				AEA5BFCA4E89930AB79D71EC0EFB0973 /* POPAnimationTracerInternal.h */,
+				FA93D78CFB00878520A953E2086BD651 /* POPAnimator.h */,
+				BBA85609C2DC1AB5750744DEEE082B43 /* POPAnimator.mm */,
+				1926EF48409AEDCB474219897B885570 /* POPAnimatorPrivate.h */,
+				129BF05FD2C25AA79D72229FA03884C8 /* POPBasicAnimation.h */,
+				4C603CD4DD8C4046AD3553C7A6021526 /* POPBasicAnimation.mm */,
+				6F7C142089E7D6070A471807936216A7 /* POPBasicAnimationInternal.h */,
+				729AB9C8AE937FE2E1A5D33CD8531BF5 /* POPCGUtils.h */,
+				A6073E355CE05C2963FFDAE4983E5CAF /* POPCGUtils.mm */,
+				FF386E524555A14AF642278B72713F13 /* POPCustomAnimation.h */,
+				FEBD1A8ADF86D495EC99CCA84CC98742 /* POPCustomAnimation.mm */,
+				862347ED90D935A1DE1106A63D48C521 /* POPDecayAnimation.h */,
+				2BA92AB60FFCE74A80E8907B32FE1B43 /* POPDecayAnimation.mm */,
+				D7F2B7C89A88CC984D241448110D1725 /* POPDecayAnimationInternal.h */,
+				94383A5BA99648B4ABEBE93D85CBDA90 /* POPDefines.h */,
+				7EFFDA2FD6DD2968B592B55D2894D61C /* POPGeometry.h */,
+				F46470A80EC6B733084EEBE5A6BA37F5 /* POPGeometry.mm */,
+				798A018A1F69BFB560E20D1D64F47043 /* POPLayerExtras.h */,
+				3D8C4055A70986B998792F812AD391D6 /* POPLayerExtras.mm */,
+				FBB2B58C12B927333651C07220D5768F /* POPMath.h */,
+				BE7B96C2F16BA5B982AB0F390DC820D4 /* POPMath.mm */,
+				450064F48B3BB6ABD986E1EAF11E909B /* POPPropertyAnimation.h */,
+				B91645DCC67A82486C5C0DFE9379A209 /* POPPropertyAnimation.mm */,
+				CCCC4EDE7890EC5163FA4B3DB903AFBF /* POPPropertyAnimationInternal.h */,
+				0DD64617DF3B7BD33004DBD964BEBC71 /* POPSpringAnimation.h */,
+				466823CE1F5075F08A7D8D33C07EA3F1 /* POPSpringAnimation.mm */,
+				69B7723E51585D8995A358C846F50A81 /* POPSpringAnimationInternal.h */,
+				7367DB03968A357DB07F2678DAE08FFB /* POPSpringSolver.h */,
+				FF493690AC39034AC2DFCC5B3B8E9F3E /* POPVector.h */,
+				C00C0F67F1266A8DF2CF4D1D8F42899B /* POPVector.mm */,
+				3D04D66E605DA539A8F047CCD940E2F0 /* TransformationMatrix.cpp */,
+				55B7EB879A160FF2E8A19086D4AC4043 /* TransformationMatrix.h */,
+				63E33001F0AF7EB9F73A4C49EA08528E /* UnitBezier.h */,
+				8CB33AED1C336EF80739BAA3AB6597DE /* Support Files */,
+			);
+			path = pop;
+			sourceTree = "<group>";
+		};
+		C77E79A7A534B7657FFB18A18868E92B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D5C93A3B41FC279700233CC150AEB63 /* TGCameraAuthorizationViewController.xib */,
+				8429E5C73BF09D1E4527096E826941B7 /* TGCameraViewController.bundle */,
+				B6AE8EFDA4CFD78427539C5364CFCA61 /* TGCameraViewController.xcassets */,
+				3D8B212C9F01AB8ED9081AAA63E714E1 /* TGCameraViewController.xib */,
+				A71728BC04C055C4179D725AD782D5BA /* TGPhotoViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C7B61A8DCD8A2BDDD452CF4CFBF48034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76B71169A0D6DC2E295DF3E2E71FACEC /* libPods-CustomTabBarDemo.a */,
+				F13E1C117D1B1BE61979449471694079 /* libpop.a */,
+				05A60E203745AA023B74F74249F71C5C /* libTGCameraViewController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC4DAE670D574EC76DB042885F7FEF38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2A054796312257CE115B07F0D2CA692 /* pop */,
+				B471DA4610FEA377DCC27A616518B0B1 /* TGCameraViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE6D19366A97DAC8E6781241D363F0EB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CD9DB3B213C43525C2D8EE990A796091 /* AssetsLibrary.framework */,
+				E5763AC1EFA71C5159E3CA0FCCCC3683 /* AVFoundation.framework */,
+				541D522E713C3259B9D78290E72E7596 /* CoreImage.framework */,
+				1702A7757120C4ABB6F482B8AC6B36A4 /* Foundation.framework */,
+				DE1307499B8DB7AB4A610BDBFBB9151C /* MobileCoreServices.framework */,
+				6EF3F1F690EC4B8F38ACD2C8BEF02A24 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EF87FAB3AE9203E7A874AC0D4B5B9CFD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9C6B80B02A048AE6856F6565B43B1B7 /* Pods-CustomTabBarDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04BD333B16FBE91F6844844D6538525F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376109DC68C3ACD986BD89635DDA7BC6 /* TGAlbum.h in Headers */,
+				E69864D4B846207566154636600DBD78 /* TGAssetImageFile.h in Headers */,
+				48D4D1BD0B6F3E50257502DC7C46B0CF /* TGAssetsLibrary.h in Headers */,
+				EC4DF43335034ED7960909ABD4087CA9 /* TGCamera.h in Headers */,
+				D7EF410925468C1229D28468338B1233 /* TGCameraAuthorizationViewController.h in Headers */,
+				752A7793933AF1FD890F10F71BA93F0E /* TGCameraColor.h in Headers */,
+				57CD618A12269CD4B58F5C841C79CDD0 /* TGCameraFilterView.h in Headers */,
+				C935687BCD78CA8EE57B7C5278E992DE /* TGCameraFlash.h in Headers */,
+				FCB1BE49F9624CDD0B05D2C81C50A734 /* TGCameraFocus.h in Headers */,
+				DD5AE8D01326BD4FA165DF893CDF2FD5 /* TGCameraFocusView.h in Headers */,
+				6D6D70452AF26FD6FED10B68DAB87CDE /* TGCameraFunctions.h in Headers */,
+				9FC701596562AEE766672395118CFC88 /* TGCameraGrid.h in Headers */,
+				39F11615796CCE4CA9EB0D3CC1CAC9D4 /* TGCameraGridView.h in Headers */,
+				A54982DE789B086BAAEB4E5B1EC2FF67 /* TGCameraNavigationController.h in Headers */,
+				ADCE95FD93E14F058181C047554C813C /* TGCameraShot.h in Headers */,
+				98EB153DBEF50815D05630955DBD32BA /* TGCameraSlideDownView.h in Headers */,
+				8875A294F999E7DD6B17DAE29ADDE12E /* TGCameraSlideUpView.h in Headers */,
+				3FFBFF9AA40C3492E81B7E0E05B47578 /* TGCameraSlideView.h in Headers */,
+				286994E8AEE6E2E0E7EDBB67A141A45C /* TGCameraToggle.h in Headers */,
+				4AEA66849CF8CE39BA2BCDF17ABFAFB9 /* TGCameraViewController.h in Headers */,
+				A43474BAED2F16558E098E2BC9970D44 /* TGPhotoViewController.h in Headers */,
+				D08F3CDD9B36B118C8798BFE33F6DB7E /* TGTintedButton.h in Headers */,
+				56DB124830D49F1C08A1732D07973E05 /* TGTintedLabel.h in Headers */,
+				ED6255282B12C9BFB27AB9A4AA337E5F /* UIImage+CameraFilters.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC8929423167975897702E00F7B9B37E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0062E43AF55DA5D92501B042D7385CDD /* FloatConversion.h in Headers */,
+				20293B0B70D5008F9AF56A558BCD065E /* POP.h in Headers */,
+				E4C586D6BB668F496FCC08A8617812A9 /* POPAction.h in Headers */,
+				C70C81032EEF8EDAE7A6D9008F9F2443 /* POPAnimatableProperty.h in Headers */,
+				5C1D292E918ECA624CA58C1EDAD716E4 /* POPAnimatablePropertyTypes.h in Headers */,
+				98A8F8CB07762A36CDEA29865295C458 /* POPAnimation.h in Headers */,
+				50BE40326C2AE833C670038671A5AB36 /* POPAnimationEvent.h in Headers */,
+				2C3C8313C1615F586C0CD3DBEDB0F664 /* POPAnimationEventInternal.h in Headers */,
+				867480EBE57483C9EEBCE9D6B21C890D /* POPAnimationExtras.h in Headers */,
+				D7D5F0AF98E243EE58333DFB82391414 /* POPAnimationInternal.h in Headers */,
+				76F00AD8E7C707A0CEBC2C0E1C45BD10 /* POPAnimationPrivate.h in Headers */,
+				B7CBEBF00B9C04C42934242904E7E30A /* POPAnimationRuntime.h in Headers */,
+				173CFD79384426465E3E56B58D1E28C2 /* POPAnimationTracer.h in Headers */,
+				AE9F653E0000977CAB62DBB3384FEDFA /* POPAnimationTracerInternal.h in Headers */,
+				A1BE90D67C3A62315F25F69F50661407 /* POPAnimator.h in Headers */,
+				CD2737A9C55FBFB4EF26B67738682EB6 /* POPAnimatorPrivate.h in Headers */,
+				92DB8109CA76577165AF74A8A6FC2818 /* POPBasicAnimation.h in Headers */,
+				87D4C8EA26B36D73A386C16690C3F04D /* POPBasicAnimationInternal.h in Headers */,
+				7AF79C80B2C230729BA709895082506B /* POPCGUtils.h in Headers */,
+				E439A18D8E8BF1B69B05A413776F8419 /* POPCustomAnimation.h in Headers */,
+				49B91FF413C511DCC210E9B228735675 /* POPDecayAnimation.h in Headers */,
+				43440063EB656BE1529A6345FD01D911 /* POPDecayAnimationInternal.h in Headers */,
+				0CFBC2B5C64AD889451A16E80CF5FD18 /* POPDefines.h in Headers */,
+				E420EDC9DF6B02B4A1B57ED2843ADB9C /* POPGeometry.h in Headers */,
+				B3268D10A15937305797AD3C868F0286 /* POPLayerExtras.h in Headers */,
+				35FA3E44E72412C51EF084BBE91BA945 /* POPMath.h in Headers */,
+				3E5A8D1BD3D9601F35121280004E8DAE /* POPPropertyAnimation.h in Headers */,
+				0299A3B2A3B6A4A3EF2DAEC169D7A20B /* POPPropertyAnimationInternal.h in Headers */,
+				A61D5DEE99F8555E5BF5EE6C40BD0EE0 /* POPSpringAnimation.h in Headers */,
+				590460AA979E42A3D691822188C08EF8 /* POPSpringAnimationInternal.h in Headers */,
+				8BFFD6682B4A7230AF0C977DFDA43B50 /* POPSpringSolver.h in Headers */,
+				67F9E753A267CF026BC81F1BC959C8B3 /* POPVector.h in Headers */,
+				1969D3D9F4EF9C166C842114AC3FFD32 /* TransformationMatrix.h in Headers */,
+				A26BA01B798C0D7F2527F2ACA2BF67BA /* UnitBezier.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6403EB1EE025A5B6DEF3432881B19AD4 /* TGCameraViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAFC30E75AAA2E28F95A99039481DD2 /* Build configuration list for PBXNativeTarget "TGCameraViewController" */;
+			buildPhases = (
+				06BEBAE906E7BABB4A6E883C33D23472 /* Sources */,
+				1469082EEDFBDBE9767D589DA1C2E8AA /* Frameworks */,
+				04BD333B16FBE91F6844844D6538525F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGCameraViewController;
+			productName = TGCameraViewController;
+			productReference = 05A60E203745AA023B74F74249F71C5C /* libTGCameraViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		66615DFB162875BE47342C8C583E7B8D /* Pods-CustomTabBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA39480C1DCD83CC10FC64C6A7EC3C2 /* Build configuration list for PBXNativeTarget "Pods-CustomTabBarDemo" */;
+			buildPhases = (
+				D3288F01CDD7B019281EADA9D2C5E850 /* Sources */,
+				5FF0B5CF7CCFA9500370A133406E60D4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C15CEA8BE5868884D3B53A695396187 /* PBXTargetDependency */,
+				58AC3B5E30DF4AF586A0F11681876676 /* PBXTargetDependency */,
+			);
+			name = "Pods-CustomTabBarDemo";
+			productName = "Pods-CustomTabBarDemo";
+			productReference = 76B71169A0D6DC2E295DF3E2E71FACEC /* libPods-CustomTabBarDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A6601F5986EF19698F65FBFFD85E4933 /* pop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F141BA5D29A7FF735C9D1737BF85402B /* Build configuration list for PBXNativeTarget "pop" */;
+			buildPhases = (
+				60C0E4E673FD7CD415789FA6557D11A3 /* Sources */,
+				18AB008CE33F1AA8BC54F968142008A4 /* Frameworks */,
+				CC8929423167975897702E00F7B9B37E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pop;
+			productName = pop;
+			productReference = F13E1C117D1B1BE61979449471694079 /* libpop.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0940;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C7B61A8DCD8A2BDDD452CF4CFBF48034 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66615DFB162875BE47342C8C583E7B8D /* Pods-CustomTabBarDemo */,
+				A6601F5986EF19698F65FBFFD85E4933 /* pop */,
+				6403EB1EE025A5B6DEF3432881B19AD4 /* TGCameraViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06BEBAE906E7BABB4A6E883C33D23472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1268EF9EEF09E41C8904FA3CA10BC6AD /* TGAlbum.m in Sources */,
+				A7F0622366712319B34EB01633A4ECE3 /* TGAssetImageFile.m in Sources */,
+				C41563B9863ECE5AC35B021EF8FBF982 /* TGAssetsLibrary.m in Sources */,
+				E2978944C4EBC80A07FAC77237AD0C70 /* TGCamera.m in Sources */,
+				71E4B0AB239A3D409261431B109074D8 /* TGCameraAuthorizationViewController.m in Sources */,
+				B618CAB9FDC49CA21BC0667851F7FC72 /* TGCameraColor.m in Sources */,
+				2FA662EC8275BCBA14144880A0440616 /* TGCameraFilterView.m in Sources */,
+				2514C2EF2666A412073F669396B1189C /* TGCameraFlash.m in Sources */,
+				0D20B7DAFAE3F70252C5CA813343D85A /* TGCameraFocus.m in Sources */,
+				95204B534310B43B6CC3B5DDD6A28518 /* TGCameraFocusView.m in Sources */,
+				ECC48E95AEA25B1FB4B3A73A50E2CAC9 /* TGCameraFunctions.m in Sources */,
+				5130817EFC965EFD30889BE2B3D8CDC7 /* TGCameraGrid.m in Sources */,
+				DDECB85C2EAE13193C5E7D54B539177E /* TGCameraGridView.m in Sources */,
+				F677FC15DB78C49AAEA03CA9FBBDFC48 /* TGCameraNavigationController.m in Sources */,
+				C3FC92496C6F7240BD9F5C63D168BB5B /* TGCameraShot.m in Sources */,
+				F4EBAECEE60F41CCFDCDEE05C84BEABD /* TGCameraSlideDownView.m in Sources */,
+				A6B7F89EBD29B039769BC1C3F18F86AB /* TGCameraSlideUpView.m in Sources */,
+				5366991E623179D43551E5989E3DA058 /* TGCameraSlideView.m in Sources */,
+				0481B19C7F3A108D59D3ACCE51D927F7 /* TGCameraToggle.m in Sources */,
+				5DAC01405E5595ABC8B8B4CE3572AA16 /* TGCameraViewController-dummy.m in Sources */,
+				CB71E598A11E88CCA53A5C7041643EA3 /* TGCameraViewController.m in Sources */,
+				A2063BA2AD8308C7FC4EA753081C7EDC /* TGPhotoViewController.m in Sources */,
+				EC3EBC6662B9C458B1F31ABD114DAFB3 /* TGTintedButton.m in Sources */,
+				15A696758287486E1A6A81D7DFD8ED4C /* TGTintedLabel.m in Sources */,
+				1EB0F16844F3AE83D29DB5F5E15D38E4 /* UIImage+CameraFilters.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C0E4E673FD7CD415789FA6557D11A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF2FE8945811974CAD3E565959512C4 /* pop-dummy.m in Sources */,
+				CB79C33376DD57470FB812768966AB0D /* POPAnimatableProperty.mm in Sources */,
+				3754F9872C2FDBFDB734EE0243428734 /* POPAnimation.mm in Sources */,
+				454345F3A4F39409645F9BBCFAF16F92 /* POPAnimationEvent.mm in Sources */,
+				F59416041D773DD446221E6591AE4476 /* POPAnimationExtras.mm in Sources */,
+				248CC5877B43F0463630176FB8B1390D /* POPAnimationRuntime.mm in Sources */,
+				EBA99E110AA1F31C0BD79C4F16BF49CB /* POPAnimationTracer.mm in Sources */,
+				7DA02EACE82C0D562F68BAF2F28D0035 /* POPAnimator.mm in Sources */,
+				51E36B94E2C540606C1B7110804E9281 /* POPBasicAnimation.mm in Sources */,
+				E0D2076ABDBF2FDF213F2C6B10CB052F /* POPCGUtils.mm in Sources */,
+				2FB8962A2A7E65016BEAD8C0F3F0E306 /* POPCustomAnimation.mm in Sources */,
+				6C4332837874C4AE67F83C3BEDA3E4DA /* POPDecayAnimation.mm in Sources */,
+				BB4E9E349E0DCF8E594DBB36243DB4C9 /* POPGeometry.mm in Sources */,
+				E9E5D0DC0692FAB8F2B62DD4169017F3 /* POPLayerExtras.mm in Sources */,
+				7458B6E76846F47D47474B8F65B8CA0B /* POPMath.mm in Sources */,
+				2F76ADD7FEB67017BD9585467E954101 /* POPPropertyAnimation.mm in Sources */,
+				FDD91B879E36AA3C4B775FD41EBEF781 /* POPSpringAnimation.mm in Sources */,
+				C4C4E2AF84E9B59A83D38C76606228BB /* POPVector.mm in Sources */,
+				B4779C3DA0D3DD5B6E17C685280E91A5 /* TransformationMatrix.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3288F01CDD7B019281EADA9D2C5E850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3A821F17283ADE82F430C765FF03A3 /* Pods-CustomTabBarDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C15CEA8BE5868884D3B53A695396187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TGCameraViewController;
+			target = 6403EB1EE025A5B6DEF3432881B19AD4 /* TGCameraViewController */;
+			targetProxy = 62CAC0AD0602332035A96575A94EA128 /* PBXContainerItemProxy */;
+		};
+		58AC3B5E30DF4AF586A0F11681876676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pop;
+			target = A6601F5986EF19698F65FBFFD85E4933 /* pop */;
+			targetProxy = 5B3AD51A82DBA78803DFCDE559C6742A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D5C93A3B41FC279700233CC150AEB63 /* TGCameraAuthorizationViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56AB49B3C86FD73850E6D4E82E6B769B /* TGCameraAuthorizationViewController.xib */,
+			);
+			name = TGCameraAuthorizationViewController.xib;
+			path = TGCameraViewController/Classes/View;
+			sourceTree = "<group>";
+		};
+		3D8B212C9F01AB8ED9081AAA63E714E1 /* TGCameraViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94E642A102F8460699E343B94FE4FADC /* TGCameraViewController.xib */,
+			);
+			name = TGCameraViewController.xib;
+			path = TGCameraViewController/Classes/View;
+			sourceTree = "<group>";
+		};
+		A71728BC04C055C4179D725AD782D5BA /* TGPhotoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDDDD939536F1CC1601A558E47296953 /* TGPhotoViewController.xib */,
+			);
+			name = TGPhotoViewController.xib;
+			path = TGCameraViewController/Classes/View;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		137263037E636D6F6CB622A430F23411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA67C14F2458EC5E29A924E9AB867AB /* TGCameraViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TGCameraViewController/TGCameraViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TGCameraViewController;
+				PRODUCT_NAME = TGCameraViewController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		393637F3BF74D9E7B68BBDA7510EFCD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA67C14F2458EC5E29A924E9AB867AB /* TGCameraViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TGCameraViewController/TGCameraViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TGCameraViewController;
+				PRODUCT_NAME = TGCameraViewController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B3F28290D525135BD159809BDDEEB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E73DF2890B7E00201074B0D8670F560 /* Pods-CustomTabBarDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F2202C61471FA4D5C68AC82EB26A156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 213E197C8FA6E6AB2A14FC6EA011A724 /* pop.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = pop;
+				PRODUCT_NAME = pop;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A6AD6FAB9A0A2FA8F78341024815166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D749F968F37A87BEA1293119816644 /* Pods-CustomTabBarDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E040E1B9403E9837672836168C53AAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 213E197C8FA6E6AB2A14FC6EA011A724 /* pop.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = pop;
+				PRODUCT_NAME = pop;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA39480C1DCD83CC10FC64C6A7EC3C2 /* Build configuration list for PBXNativeTarget "Pods-CustomTabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3F28290D525135BD159809BDDEEB0E /* Debug */,
+				9A6AD6FAB9A0A2FA8F78341024815166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAFC30E75AAA2E28F95A99039481DD2 /* Build configuration list for PBXNativeTarget "TGCameraViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				393637F3BF74D9E7B68BBDA7510EFCD4 /* Debug */,
+				137263037E636D6F6CB622A430F23411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F141BA5D29A7FF735C9D1737BF85402B /* Build configuration list for PBXNativeTarget "pop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F2202C61471FA4D5C68AC82EB26A156 /* Debug */,
+				E040E1B9403E9837672836168C53AAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
